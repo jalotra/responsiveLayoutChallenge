@@ -9,10 +9,17 @@
     margin: 0 auto;
   }
 
+  .main_row::before,
+  .main_row::after{
+    padding-bottom: 5 px;
+    padding-top: 5px;
+  }
 .row::before,
 .row::after {
   display: table;
   content: '';
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .row::after {
